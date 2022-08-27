@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap');
+
+body {
+    width: 900px;
+    margin: auto;
+}
+
+Html {
+    color: rgb(78, 76, 76);
+}
+
+#logoName {
+    font-family: 'Yellowtail', cursive;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+section.logoAndName {
+    display: flex;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    display: inline;
+}
+
+#date {
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    display: inline;
+}
+
+#dateAndPrint {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+#icons1 {
+    text-align: right;
+}
+
+#headerTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    margin: auto;
+}
+
+#headerText {
+    height: 50px;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+#titleBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#titleAndDate {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    line-height: 1;
+}
+
+#bestFoodHeader {
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+}
+
+#footerContent {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+#aboutMe {
+    display: flex;
+}
+
+button {
+    margin: auto;
+    background-color: rgba(173, 85, 65, 0.834);
+    border: none;
+    color: white;
+    padding: 10px;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    width: 15%;
+}
+
+#vanessa {
+    font-weight: 900;
+}
+
+
+
+.milk {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.paper {
+    position: relative;
+    text-align: center;
+    color: black;
+}
