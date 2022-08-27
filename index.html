@@ -1,60 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <header> 
-        <section id="logoAndName">
-        <img src="logo.png">
-        <h2>Delicious</h2>
-        <p> The Best Food Blog on the Web</p>
+    <link rel="stylesheet" href="reset.css"/>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <header>
+      <div id="headerTop">
+        <section class="logoAndName">
+          <img src="logo.png" />
+          <div id="headerText">
+          <h2 id="logoName">Delicious</h2>
+          <h3 id="bestFoodHeader">The Best Food Blog on the Web</h3>
+          </div>
         </section>
+
         <section id="icons1">
-            <img src="fb-icon.png">
-            <img src="twit-icon.png">
-            <img src="gp-icon.png">
-            <img src="insta-icon.png">
-            <img src="flic-icon.png">
-            <img src="pint-icon.png">
-            <img src="flic-icon.png">
+          <img src="fb-icon.png" />
+          <img src="twit-icon.png" />
+          <img src="gp-icon.png" />
+          <img src="insta-icon.png" />
+          <img src="flic-icon.png" />
+          <img src="pint-icon.png" />
+          <img src="flic-icon.png" />
+          <img src="rss-icon.png" />
+          <img src="mail-icon.png" />
         </section>
-        <section id="icons2">
-            <img src="rss-icon.png">
-            <img src="mail-icon.png">
-        </section>
-        <img src="hr-img.png">
+      </div>
+      <img src="hr-img.png" />
     </header>
-    <main>
-        <h1> Chocolate Pizza</h1>
-        <p> Posted on 15 Dec 2013 / Desserts</p>
-        <img src="choco-pizza.png"> 
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua.
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua.
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua.
-        </p>
-        <img src="list-bg.png">
-    </main>
-    <footer>
-        <img src="van-pic.png">
-        <h2> Vanessa Stevenson</h2>
-        <p> Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
-        <button> Share Recipe</button>
-    </footer>
+    <br>
+    <div id="titleBar">
+        <div id="titleAndDate">
+            <h1>Chocolate Pizza</h1>
+            <p id="date">Posted on 15 Dec 2013 / Desserts</p>
+        </div>
     
-</body>
+      <section id="dateAndPrint">
+        
+        <img src="print-icon.png" />
+        <p>print</p>
+      </section>
+    </div>
+
+      <img src="choco-pizza.png" />
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor
+        sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua.
+      </p>
+    </br>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor
+        sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua.
+      </p>
+    </br>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor
+        sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua.
+      </p>
+    </br>
+    <div class="paper">
+      <img src="list-bg.png" />
+      <div class="milk">1 1/2 cups of milk</div>
+      <!-- <div class="milk">1/2 cup mascarpone</div>
+      <div class="milk">1 1/2 tsp pink salt</div>
+      <div class="milk">1 1/2 cups of milk</div>
+      <div class="milk">1 lb Black Mission Figs</div>
+      <div class="milk">half a cup of brown sugar</div>
+      <div class="milk">2-4 Tbsp water</div> -->
+      
+    </div>
+    </main>
+
+    <footer>
+    <div id="aboutMe">
+      <img src="van-pic.png" />
+      <section id="footerContent">
+      <h2 id="vanessa">Vanessa Stevenson</h2>   
+      <p>
+        Food enthusiast, photography fan. Add a pinch of raw foodism and that's
+        pretty much who I am.
+      </p>
+    </section>
+      <button>SHARE RECIPE</button>
+    </div>
+    </footer>
+  </body>
 </html>
